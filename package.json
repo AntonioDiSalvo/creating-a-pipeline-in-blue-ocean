@@ -18,9 +18,5 @@
     "coverageReporters": [
       "text"
     ]
-  },
-  "jest-junit": {
-    "output": "output/coverage/junit/junit.xml",
-    "usePathForSuiteName": "true"
   }
 }
