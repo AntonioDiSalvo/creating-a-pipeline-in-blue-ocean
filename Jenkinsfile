@@ -19,7 +19,6 @@ pipeline {
       }
       steps {
         sh './jenkins/scripts/test.sh'
-        junit 'junit.xml'
       }
     }
 
