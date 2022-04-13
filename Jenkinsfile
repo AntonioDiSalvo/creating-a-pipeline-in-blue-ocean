@@ -13,7 +13,7 @@ pipeline {
       }
     }
 
-    stage('Test_archive') {
+    stage('TestArchive') {
       environment {
         CI = 'true'
       }
